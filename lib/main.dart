@@ -1,3 +1,4 @@
+import 'package:expenz/screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,14 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: "Inter"),
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            "hellow pasidu",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-          ),
-        ),
-      ),
+      home: Scaffold(body: OnBoardingScreen()),
     );
   }
 }
